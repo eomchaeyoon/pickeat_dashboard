@@ -1,0 +1,1 @@
+ C:\\dev\\workspace\\pickeat_dashboard\\.dart_tool\\flutter_build\\061e0ddf5acc1da0b31f6c348d0d7a93\\native_assets.yaml: 
