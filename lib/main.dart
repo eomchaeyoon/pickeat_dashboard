@@ -3,6 +3,7 @@ import 'package:pickeat_dashboard/screens/page_screen.dart';
 import 'package:pickeat_dashboard/theme/theme.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:pickeat_dashboard/screens/intro/intro_screen.dart';
 import 'package:pickeat_dashboard/screens/layout/layout_screen.dart';
+import 'package:pickeat_dashboard/screens/setting/setting_screen.dart';
 
 class PageInfo {
   final String routeName;
@@ -20,6 +22,16 @@ List<PageInfo> pages = [
     routeName: '/layout',
     title: '기본화면구조',
     builder: (context, title) => LayoutScreen(title: title),
+  ),
+  PageInfo(
+    routeName: '/intro',
+    title: '앱소개',
+    builder: (context, title) => IntroScreen(title: title),
+  ),
+  PageInfo(
+    routeName: '/setting',
+    title: '정보',
+    builder: (context, title) => SettingScreen(title: title),
   ),
 ];
 
